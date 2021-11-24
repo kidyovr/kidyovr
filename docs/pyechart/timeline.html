@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="b2df0bfabbe24d92b9063bc36add2c9d" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="9e43532409e746e9b244232ff271a5ed" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_b2df0bfabbe24d92b9063bc36add2c9d = echarts.init(
-            document.getElementById('b2df0bfabbe24d92b9063bc36add2c9d'), 'white', {renderer: 'canvas'});
-        var option_b2df0bfabbe24d92b9063bc36add2c9d = {
+        var chart_9e43532409e746e9b244232ff271a5ed = echarts.init(
+            document.getElementById('9e43532409e746e9b244232ff271a5ed'), 'white', {renderer: 'canvas'});
+        var option_9e43532409e746e9b244232ff271a5ed = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -2209,23 +2209,35 @@
     "title": [
         {
             "text": "\u6bcf\u5206\u949f\u8bc4\u8bba\u6570Timeline",
-            "subtext": "\u8bc4\u8bba\u6570\u4ee5\u6700\u5927\u503c\u4e3a1000\u8fdb\u884c\u5f52\u4e00\u5316\uff0c\u70b9\u51fb\u53f3\u4fa7legend\u5757\u53ef\u9009\u62e9\u663e\u793a",
+            "subtext": "\u8bc4\u8bba\u6570\u4ee5\u6700\u5927\u503c\u4e3a1000\u8fdb\u884c\u5f52\u4e00\u5316\uff0c\u70b9\u51fb\u53f3\u4fa7legend\u5757\u53ef\u9009\u62e9\u663e\u793a\n\u62d6\u52a8\u6700\u4e0b\u9762\u6ed1\u5757\u53ef\u8c03\u6574\u65f6\u95f4\u8f74",
             "padding": 5,
             "itemGap": 10
         }
     ],
-    "dataZoom": {
-        "show": true,
-        "type": "slider",
-        "realtime": true,
-        "start": 20,
-        "end": 80,
-        "orient": "horizontal",
-        "zoomLock": false,
-        "filterMode": "filter"
-    }
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
 };
-        chart_b2df0bfabbe24d92b9063bc36add2c9d.setOption(option_b2df0bfabbe24d92b9063bc36add2c9d);
+        chart_9e43532409e746e9b244232ff271a5ed.setOption(option_9e43532409e746e9b244232ff271a5ed);
     </script>
 </body>
 </html>

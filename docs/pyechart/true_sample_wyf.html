@@ -7,11 +7,11 @@
 
 </head>
 <body>
-    <div id="a5c9288faec24311942ca55766822f51" class="chart-container" style="width:900px; height:500px;"></div>
+    <div id="42dab25ada7942a683c822b948f1ebcd" class="chart-container" style="width:900px; height:500px;"></div>
     <script>
-        var chart_a5c9288faec24311942ca55766822f51 = echarts.init(
-            document.getElementById('a5c9288faec24311942ca55766822f51'), 'white', {renderer: 'canvas'});
-        var option_a5c9288faec24311942ca55766822f51 = {
+        var chart_42dab25ada7942a683c822b948f1ebcd = echarts.init(
+            document.getElementById('42dab25ada7942a683c822b948f1ebcd'), 'white', {renderer: 'canvas'});
+        var option_42dab25ada7942a683c822b948f1ebcd = {
     "animation": true,
     "animationThreshold": 2000,
     "animationDuration": 1000,
@@ -9387,18 +9387,30 @@
             "itemGap": 10
         }
     ],
-    "dataZoom": {
-        "show": true,
-        "type": "slider",
-        "realtime": true,
-        "start": 20,
-        "end": 80,
-        "orient": "horizontal",
-        "zoomLock": false,
-        "filterMode": "filter"
-    }
+    "dataZoom": [
+        {
+            "show": true,
+            "type": "slider",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        },
+        {
+            "show": true,
+            "type": "inside",
+            "realtime": true,
+            "start": 20,
+            "end": 80,
+            "orient": "horizontal",
+            "zoomLock": false,
+            "filterMode": "filter"
+        }
+    ]
 };
-        chart_a5c9288faec24311942ca55766822f51.setOption(option_a5c9288faec24311942ca55766822f51);
+        chart_42dab25ada7942a683c822b948f1ebcd.setOption(option_42dab25ada7942a683c822b948f1ebcd);
     </script>
 </body>
 </html>
